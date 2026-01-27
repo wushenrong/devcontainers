@@ -1,0 +1,27 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/cpp
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "mine.cpplint",
+        "ms-vscode.makefile-tools",
+        "streetsidesoftware.code-spell-checker"
+      ],
+      "settings": {
+        "cpplint.cpplintPath": "/usr/local/py-utils/bin/cpplint"
+      }
+    }
+  },
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {
+      "installTools": true,
+      "toolsToInstall": "cpplint,pipx",
+      "version": "os-provided"
+    }
+  },
+  "name": "CSCE GCC"
+}
