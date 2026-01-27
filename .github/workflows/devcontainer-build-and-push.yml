@@ -29,7 +29,7 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Pre-build CSCE GCC dev container image
-        uses: devcontainers/ci@v0.2
+        uses: devcontainers/ci@v0.3
         with:
           subFolder: csce-gcc
           imageName: ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/csce-gcc
