@@ -1,4 +1,4 @@
-FROM mcr.microsoft.com/devcontainers/cpp:1-ubuntu22.04
+FROM mcr.microsoft.com/devcontainers/cpp:2-ubuntu22.04
 
 LABEL org.opencontainers.image.source=https://github.com/wushenrong/devcontainers
 LABEL org.opencontainers.image.description="Image containing tools for CSCE C++ development."

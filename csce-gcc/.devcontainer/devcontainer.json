@@ -17,6 +17,9 @@
     }
   },
   "features": {
+    "ghcr.io/devcontainers/features/common-utils:2": {
+      "configureZshAsDefaultShell": true
+    },
     "ghcr.io/devcontainers/features/python:1": {
       "installTools": true,
       "toolsToInstall": "cpplint,pipx",
